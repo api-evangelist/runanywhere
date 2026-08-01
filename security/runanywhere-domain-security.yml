@@ -1,0 +1,24 @@
+generated: '2026-07-21'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.runanywhere.ai
+  https: true
+  tls_version: TLSv1.2
+  cert_expires: Aug 27 09:24:00 2026 GMT
+  hsts: true
+  hsts_max_age: 63072000
+- host: docs.runanywhere.ai
+  https: true
+  tls_version: TLSv1.2
+  cert_expires: Sep 21 03:51:57 2026 GMT
+  hsts: true
+  hsts_max_age: 63072000
+- host: api.runanywhere.ai
+  https: false
+domains:
+- domain: runanywhere.ai
+  dnssec: false
+  caa: []
+  spf: false
+  dmarc: false

@@ -1,0 +1,54 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.runanywhere.ai/quickstart
+notes: >-
+  First-party open-source client SDKs for the RunAnywhere on-device inference
+  runtime (one C++ core with per-platform bindings). Coordinates captured from
+  the official installation/quickstart docs and the public GitHub org
+  (github.com/RunanywhereAI). npm registry presence verified via
+  registry.npmjs.org on 2026-07-21.
+packages:
+  - language: swift
+    registry: swiftpm
+    name: runanywhere-sdks
+    products: [RunAnywhere, RunAnywhereLlamaCPP, RunAnywhereONNX]
+    url: https://github.com/RunanywhereAI/runanywhere-sdks
+    install: '.package(url: "https://github.com/RunanywhereAI/runanywhere-sdks.git", from: "0.1.0")'
+    official: true
+  - language: kotlin
+    registry: maven
+    name: ai.runanywhere:runanywhere-core
+    coordinates:
+      - ai.runanywhere:runanywhere-core:0.1.0
+      - ai.runanywhere:runanywhere-llamacpp:0.1.0
+      - ai.runanywhere:runanywhere-onnx:0.1.0
+    install: 'implementation("ai.runanywhere:runanywhere-core:0.1.0")'
+    official: true
+  - language: dart
+    registry: pub.dev
+    name: runanywhere
+    url: https://pub.dev/packages/runanywhere
+    install: 'runanywhere: ^0.1.0'
+    official: true
+    verified: true
+  - language: javascript
+    registry: npm
+    name: '@runanywhere/web'
+    url: https://www.npmjs.com/package/@runanywhere/web
+    install: npm install @runanywhere/web
+    official: true
+    verified: true
+  - language: javascript
+    registry: npm
+    name: '@runanywhere/react-native'
+    url: https://www.npmjs.com/package/@runanywhere/react-native
+    install: npm install @runanywhere/react-native
+    official: true
+    note: documented in official quickstart; npm publish appears pending (registry 404 on 2026-07-21)
+  - language: shell
+    registry: homebrew
+    name: rcli
+    tap: RunanywhereAI/homebrew-tap
+    url: https://github.com/RunanywhereAI/homebrew-tap
+    install: brew tap RunanywhereAI/homebrew-tap && brew install rcli
+    official: true

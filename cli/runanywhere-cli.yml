@@ -1,0 +1,16 @@
+generated: '2026-07-21'
+method: searched
+source: https://github.com/RunanywhereAI/homebrew-tap
+name: rcli
+description: >-
+  First-party RunAnywhere command-line tool, distributed through the official
+  Homebrew tap (RunanywhereAI/homebrew-tap). Command surface not yet documented
+  in a public reference page as of 2026-07-21; this artifact captures the
+  install path and provenance only. No command list is asserted to avoid
+  fabrication.
+install:
+  - method: homebrew
+    commands:
+      - brew tap RunanywhereAI/homebrew-tap
+      - brew install rcli
+binary: rcli

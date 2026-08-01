@@ -1,0 +1,30 @@
+generated: '2026-07-21'
+method: probed
+notes: >-
+  Probed the standard /.well-known/ discovery surface on the RunAnywhere API,
+  docs, and website hosts on 2026-07-21. No discovery documents are published
+  (all 404). api.runanywhere.ai did not complete a TLS/HTTP connection from the
+  probe host (000). Absence is valid recorded data; no WellKnown pointer is
+  wired because nothing was found.
+hosts:
+  - host: https://api.runanywhere.ai
+    documents:
+      - {path: /.well-known/security.txt, status: 000}
+      - {path: /.well-known/openid-configuration, status: 000}
+      - {path: /.well-known/oauth-authorization-server, status: 000}
+      - {path: /.well-known/api-catalog, status: 000}
+      - {path: /.well-known/ai-plugin.json, status: 000}
+  - host: https://docs.runanywhere.ai
+    documents:
+      - {path: /.well-known/security.txt, status: 404}
+      - {path: /.well-known/openid-configuration, status: 404}
+      - {path: /.well-known/oauth-authorization-server, status: 404}
+      - {path: /.well-known/api-catalog, status: 404}
+      - {path: /.well-known/ai-plugin.json, status: 404}
+  - host: https://www.runanywhere.ai
+    documents:
+      - {path: /.well-known/security.txt, status: 404}
+      - {path: /.well-known/openid-configuration, status: 404}
+      - {path: /.well-known/oauth-authorization-server, status: 404}
+      - {path: /.well-known/api-catalog, status: 404}
+      - {path: /.well-known/ai-plugin.json, status: 404}

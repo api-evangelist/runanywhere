@@ -1,0 +1,113 @@
+# RunAnywhere Documentation
+
+## Docs
+
+- [Best Practices](https://docs.runanywhere.ai/flutter/best-practices.md): Optimize performance and user experience
+- [Configuration](https://docs.runanywhere.ai/flutter/configuration.md): SDK configuration options and environments
+- [Error Handling](https://docs.runanywhere.ai/flutter/error-handling.md): Handle SDK errors gracefully
+- [Installation](https://docs.runanywhere.ai/flutter/installation.md): Install the RunAnywhere Flutter SDK
+- [Introduction](https://docs.runanywhere.ai/flutter/introduction.md): RunAnywhere Flutter SDK for iOS and Android
+- [chat()](https://docs.runanywhere.ai/flutter/llm/chat.md): Simple one-liner for quick text responses
+- [generate()](https://docs.runanywhere.ai/flutter/llm/generate.md): Full text generation with performance metrics
+- [generateStream()](https://docs.runanywhere.ai/flutter/llm/stream.md): Stream tokens as they are generated for responsive UX
+- [System Prompts](https://docs.runanywhere.ai/flutter/llm/system-prompts.md): Configure model behavior with system prompts
+- [Quick Start](https://docs.runanywhere.ai/flutter/quick-start.md): Build your first AI feature in 5 minutes
+- [STT Options](https://docs.runanywhere.ai/flutter/stt/options.md): Configure speech-to-text behavior
+- [Streaming STT](https://docs.runanywhere.ai/flutter/stt/stream.md): Real-time speech transcription as you speak
+- [transcribe()](https://docs.runanywhere.ai/flutter/stt/transcribe.md): Convert audio to text with Whisper models
+- [Tool Calling](https://docs.runanywhere.ai/flutter/tool-calling.md): Register tools and let on-device LLMs call functions with structured arguments
+- [Streaming TTS](https://docs.runanywhere.ai/flutter/tts/stream.md): Stream audio for lower perceived latency
+- [synthesize()](https://docs.runanywhere.ai/flutter/tts/synthesize.md): Convert text to speech with neural voices
+- [Voices](https://docs.runanywhere.ai/flutter/tts/voices.md): Browse and select TTS voices
+- [Voice Activity Detection](https://docs.runanywhere.ai/flutter/vad.md): Detect when users start and stop speaking
+- [Voice Agent](https://docs.runanywhere.ai/flutter/voice-agent.md): Complete voice conversation pipeline
+- [Welcome to RunAnywhere](https://docs.runanywhere.ai/index.md): Production-grade, on-device AI SDKs for mobile applications
+- [Best Practices](https://docs.runanywhere.ai/kotlin/best-practices.md): Recommendations for optimal SDK usage
+- [Configuration](https://docs.runanywhere.ai/kotlin/configuration.md): SDK configuration options and settings
+- [Error Handling](https://docs.runanywhere.ai/kotlin/error-handling.md): Handle SDK errors gracefully
+- [Installation](https://docs.runanywhere.ai/kotlin/installation.md): Add the RunAnywhere Kotlin SDK to your Android project
+- [Introduction](https://docs.runanywhere.ai/kotlin/introduction.md): RunAnywhere Kotlin SDK for Android
+- [chat()](https://docs.runanywhere.ai/kotlin/llm/chat.md): Simple one-liner for quick text responses
+- [generate()](https://docs.runanywhere.ai/kotlin/llm/generate.md): Full generation with detailed metrics and customization
+- [generateStream()](https://docs.runanywhere.ai/kotlin/llm/stream.md): Stream tokens in real-time as they are generated
+- [System Prompts](https://docs.runanywhere.ai/kotlin/llm/system-prompts.md): Configure model behavior and personality
+- [LoRA Adapters](https://docs.runanywhere.ai/kotlin/lora.md): Hot-swap fine-tuned LoRA adapters at runtime without reloading models
+- [Quick Start](https://docs.runanywhere.ai/kotlin/quick-start.md): Build your first AI feature in minutes
+- [RAG Pipeline](https://docs.runanywhere.ai/kotlin/rag.md): On-device retrieval-augmented generation with vector search
+- [STT Options](https://docs.runanywhere.ai/kotlin/stt/options.md): Configure speech-to-text transcription settings
+- [Streaming STT](https://docs.runanywhere.ai/kotlin/stt/stream.md): Real-time streaming transcription for live audio
+- [transcribe()](https://docs.runanywhere.ai/kotlin/stt/transcribe.md): Convert audio to text with Whisper-based models
+- [Tool Calling](https://docs.runanywhere.ai/kotlin/tool-calling.md): Function calling with on-device LLMs on Android
+- [Streaming TTS](https://docs.runanywhere.ai/kotlin/tts/stream.md): Stream audio synthesis for long text with lower latency
+- [synthesize()](https://docs.runanywhere.ai/kotlin/tts/synthesize.md): Convert text to natural-sounding speech
+- [Voices](https://docs.runanywhere.ai/kotlin/tts/voices.md): Discover and use TTS voices
+- [Voice Activity Detection](https://docs.runanywhere.ai/kotlin/vad.md): Detect when users start and stop speaking
+- [Vision Language Models](https://docs.runanywhere.ai/kotlin/vlm.md): Multimodal image + text inference on Android devices
+- [Voice Agent](https://docs.runanywhere.ai/kotlin/voice-agent.md): Complete voice conversation pipeline
+- [Quick Start](https://docs.runanywhere.ai/quickstart.md): Get started with RunAnywhere in 5 minutes
+- [Best Practices](https://docs.runanywhere.ai/react-native/best-practices.md): Tips for building great AI experiences
+- [Configuration](https://docs.runanywhere.ai/react-native/configuration.md): SDK configuration and settings
+- [Error Handling](https://docs.runanywhere.ai/react-native/error-handling.md): Handle SDK errors gracefully
+- [Installation](https://docs.runanywhere.ai/react-native/installation.md): Add the RunAnywhere React Native SDK to your project
+- [Introduction](https://docs.runanywhere.ai/react-native/introduction.md): RunAnywhere React Native SDK for iOS and Android
+- [chat()](https://docs.runanywhere.ai/react-native/llm/chat.md): Simple one-liner chat interface
+- [generate()](https://docs.runanywhere.ai/react-native/llm/generate.md): Full text generation with options and metrics
+- [generateStream()](https://docs.runanywhere.ai/react-native/llm/stream.md): Real-time token streaming for responsive UIs
+- [System Prompts](https://docs.runanywhere.ai/react-native/llm/system-prompts.md): Control AI behavior with system prompts
+- [Quick Start](https://docs.runanywhere.ai/react-native/quick-start.md): Build your first AI feature in minutes
+- [STT Options](https://docs.runanywhere.ai/react-native/stt/options.md): Configure Speech-to-Text transcription
+- [Streaming STT](https://docs.runanywhere.ai/react-native/stt/stream.md): Real-time audio transcription
+- [transcribe()](https://docs.runanywhere.ai/react-native/stt/transcribe.md): Convert audio to text with Whisper models
+- [Tool Calling](https://docs.runanywhere.ai/react-native/tool-calling.md): Enable LLMs to call functions and interact with external tools on-device
+- [Streaming TTS](https://docs.runanywhere.ai/react-native/tts/stream.md): Stream synthesized audio for long text
+- [synthesize()](https://docs.runanywhere.ai/react-native/tts/synthesize.md): Convert text to speech with neural voices
+- [Voices](https://docs.runanywhere.ai/react-native/tts/voices.md): Available voices and how to use them
+- [Voice Activity Detection](https://docs.runanywhere.ai/react-native/vad.md): Detect when users are speaking
+- [Voice Agent](https://docs.runanywhere.ai/react-native/voice-agent.md): Complete voice conversation pipeline
+- [SDK Overview](https://docs.runanywhere.ai/sdks.md): Choose the right RunAnywhere SDK for your platform
+- [Best Practices](https://docs.runanywhere.ai/swift/best-practices.md): Performance optimization and recommended patterns
+- [Configuration](https://docs.runanywhere.ai/swift/configuration.md): SDK configuration options and settings
+- [Image Generation](https://docs.runanywhere.ai/swift/diffusion.md): Generate images on-device with Stable Diffusion and CoreML
+- [Error Handling](https://docs.runanywhere.ai/swift/error-handling.md): Handle SDK errors gracefully
+- [Installation](https://docs.runanywhere.ai/swift/installation.md): Install the RunAnywhere Swift SDK via Swift Package Manager
+- [Introduction](https://docs.runanywhere.ai/swift/introduction.md): RunAnywhere Swift SDK for iOS, macOS, tvOS, and watchOS
+- [chat()](https://docs.runanywhere.ai/swift/llm/chat.md): Simple one-liner for quick text responses
+- [generate()](https://docs.runanywhere.ai/swift/llm/generate.md): Full generation with detailed metrics and options
+- [generateStream()](https://docs.runanywhere.ai/swift/llm/stream.md): Stream tokens as they are generated for responsive UIs
+- [System Prompts](https://docs.runanywhere.ai/swift/llm/system-prompts.md): Control model behavior with system prompts
+- [Quick Start](https://docs.runanywhere.ai/swift/quick-start.md): Build your first AI feature in minutes
+- [STT Options](https://docs.runanywhere.ai/swift/stt/options.md): Configure speech-to-text transcription settings
+- [Streaming STT](https://docs.runanywhere.ai/swift/stt/stream.md): Real-time speech-to-text transcription
+- [transcribe()](https://docs.runanywhere.ai/swift/stt/transcribe.md): Convert speech to text with on-device Whisper models
+- [Tool Calling](https://docs.runanywhere.ai/swift/tool-calling.md): Enable LLMs to call functions and interact with external tools
+- [Streaming TTS](https://docs.runanywhere.ai/swift/tts/stream.md): Stream audio synthesis for long text with low latency
+- [synthesize()](https://docs.runanywhere.ai/swift/tts/synthesize.md): Convert text to speech with on-device neural voices
+- [Voices](https://docs.runanywhere.ai/swift/tts/voices.md): Available TTS voices and voice management
+- [Voice Activity Detection](https://docs.runanywhere.ai/swift/vad.md): Detect when users start and stop speaking
+- [Vision Language Models](https://docs.runanywhere.ai/swift/vlm.md): Multimodal image + text inference on-device with Swift
+- [Voice Agent](https://docs.runanywhere.ai/swift/voice-agent.md): Build complete voice conversation experiences
+- [Expo Integration Guide](https://docs.runanywhere.ai/vibe-coding/expo-integration.md): Complete guide for AI coding agents to integrate RunAnywhere SDK with Expo/React Native
+- [Best Practices](https://docs.runanywhere.ai/web/best-practices.md): Tips for building great browser AI experiences
+- [Configuration](https://docs.runanywhere.ai/web/configuration.md): SDK configuration and settings
+- [Error Handling](https://docs.runanywhere.ai/web/error-handling.md): Handle SDK errors gracefully
+- [Installation](https://docs.runanywhere.ai/web/installation.md): Add the RunAnywhere Web SDK to your project
+- [Introduction](https://docs.runanywhere.ai/web/introduction.md): RunAnywhere Web SDK for browser-based on-device AI inference
+- [Simple Generation](https://docs.runanywhere.ai/web/llm/chat.md): Quick text generation with minimal setup
+- [generate()](https://docs.runanywhere.ai/web/llm/generate.md): Full text generation with options and metrics
+- [generateStream()](https://docs.runanywhere.ai/web/llm/stream.md): Real-time token streaming for responsive UIs
+- [System Prompts](https://docs.runanywhere.ai/web/llm/system-prompts.md): Control AI behavior with system prompts
+- [Quick Start](https://docs.runanywhere.ai/web/quick-start.md): Build your first browser AI feature in minutes
+- [STT Options](https://docs.runanywhere.ai/web/stt/options.md): Advanced Speech-to-Text configuration
+- [Streaming STT](https://docs.runanywhere.ai/web/stt/stream.md): Real-time streaming speech-to-text transcription
+- [transcribe()](https://docs.runanywhere.ai/web/stt/transcribe.md): Convert audio to text with on-device Whisper models
+- [Tool Calling & Structured Output](https://docs.runanywhere.ai/web/tool-calling.md): Function calling and JSON schema-guided generation
+- [TTS Output](https://docs.runanywhere.ai/web/tts/stream.md): Working with synthesized audio output
+- [synthesize()](https://docs.runanywhere.ai/web/tts/synthesize.md): Convert text to speech with neural voices
+- [Voices](https://docs.runanywhere.ai/web/tts/voices.md): Available TTS voices and voice management
+- [Voice Activity Detection](https://docs.runanywhere.ai/web/vad.md): Detect when users are speaking
+- [Vision Language Models](https://docs.runanywhere.ai/web/vlm.md): Multimodal image + text inference in the browser
+- [Voice Pipeline](https://docs.runanywhere.ai/web/voice-agent.md): Complete voice conversation pipeline in the browser
+
+## OpenAPI Specs
+
+- [openapi](https://docs.runanywhere.ai/api-reference/openapi.json)
